@@ -7,6 +7,8 @@
 ;; Homepage: https://github.com/io12/org-fragtog
 ;; Package-Requires: ((emacs "27.1"))
 
+;;; MIT License:
+
 ;; Permission is hereby granted, free of charge, to any person obtaining a copy
 ;; of this software and associated documentation files (the "Software"), to deal
 ;; in the Software without restriction, including without limitation the rights
@@ -25,6 +27,23 @@
 ;; OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ;; SOFTWARE.
 
+;;; GPL License:
+
+;; Copyright (C) 2024  Yushun Cheng
+;;
+;; This program is free software: you can redistribute it and/or modify it
+;; under the terms of the GNU General Public License as published by the Free
+;; Software Foundation, either version 3 of the License, or (at your option)
+;; any later version.
+;;
+;; This program is distributed in the hope that it will be useful, but WITHOUT
+;; ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+;; FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+;; more details.
+;;
+;; You should have received a copy of the GNU General Public License along with
+;; this program.  If not, see <https://www.gnu.org/licenses/>.
+
 ;;; Commentary:
 
 ;; This package automates toggling Org mode LaTeX fragment
@@ -36,6 +55,7 @@
 
 (require 'org)
 (require 'org-element)
+(require 'org-element-ast)
 
 (defgroup org-fragtog nil
   "Auto-toggle Org LaTeX fragments."
